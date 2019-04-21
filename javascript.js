@@ -5,5 +5,7 @@ function validateClassName(str) {
     }
     return false;
 }
-console.log(validateClassName('C0318G'));
-console.log(validateClassName('M0318G'));
+function checkClassNane() {
+    let txt_class_name=document.getElementById("inp_class_name").value;
+    console.log(validateClassName(txt_class_name));
+}
